@@ -168,45 +168,6 @@ F 5 "1571563-9" H 6200 3350 50  0001 L BNN "Comment"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1571563-9:1571563-9 S?
-U 1 1 62331153
-P 6200 3750
-F 0 "S?" H 6200 3999 50  0000 C CNN
-F 1 "1571563-9" H 6200 3908 50  0000 C CNN
-F 2 "SW_1571563-9" H 6200 3750 50  0001 L BNN
-F 3 "" H 6200 3750 50  0001 L BNN
-F 4 "Compliant" H 6200 3750 50  0001 L BNN "EU_RoHS_Compliance"
-F 5 "1571563-9" H 6200 3750 50  0001 L BNN "Comment"
-	1    6200 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L 1571563-9:1571563-9 S?
-U 1 1 62331988
-P 6200 4150
-F 0 "S?" H 6200 4399 50  0000 C CNN
-F 1 "1571563-9" H 6200 4308 50  0000 C CNN
-F 2 "SW_1571563-9" H 6200 4150 50  0001 L BNN
-F 3 "" H 6200 4150 50  0001 L BNN
-F 4 "Compliant" H 6200 4150 50  0001 L BNN "EU_RoHS_Compliance"
-F 5 "1571563-9" H 6200 4150 50  0001 L BNN "Comment"
-	1    6200 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 1571563-9:1571563-9 S?
-U 1 1 6233240E
-P 6200 4550
-F 0 "S?" H 6200 4799 50  0000 C CNN
-F 1 "1571563-9" H 6200 4708 50  0000 C CNN
-F 2 "SW_1571563-9" H 6200 4550 50  0001 L BNN
-F 3 "" H 6200 4550 50  0001 L BNN
-F 4 "Compliant" H 6200 4550 50  0001 L BNN "EU_RoHS_Compliance"
-F 5 "1571563-9" H 6200 4550 50  0001 L BNN "Comment"
-	1    6200 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L BA2032SM:BA2032SM BT?
 U 1 1 623369E5
 P 1900 3450
@@ -271,23 +232,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 6234D28E
-P 6750 4750
-F 0 "#PWR?" H 6750 4500 50  0001 C CNN
-F 1 "GND" H 6755 4577 50  0000 C CNN
-F 2 "" H 6750 4750 50  0001 C CNN
-F 3 "" H 6750 4750 50  0001 C CNN
-	1    6750 4750
+P 6750 3650
+F 0 "#PWR?" H 6750 3400 50  0001 C CNN
+F 1 "GND" H 6755 3477 50  0000 C CNN
+F 2 "" H 6750 3650 50  0001 C CNN
+F 3 "" H 6750 3650 50  0001 C CNN
+	1    6750 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 4550 6750 4550
-Wire Wire Line
-	6750 4550 6750 4750
 Wire Wire Line
 	6500 2650 6750 2650
 Wire Wire Line
 	6750 2650 6750 3000
-Connection ~ 6750 4550
 Wire Wire Line
 	6750 3000 6500 3000
 Connection ~ 6750 3000
@@ -295,19 +251,6 @@ Wire Wire Line
 	6750 3000 6750 3350
 Wire Wire Line
 	6750 3350 6500 3350
-Connection ~ 6750 3350
-Wire Wire Line
-	6750 3350 6750 3750
-Wire Wire Line
-	6750 3750 6500 3750
-Connection ~ 6750 3750
-Wire Wire Line
-	6750 3750 6750 4150
-Wire Wire Line
-	6750 4150 6500 4150
-Connection ~ 6750 4150
-Wire Wire Line
-	6750 4150 6750 4550
 Text Label 4400 1950 0    50   ~ 0
 0.02
 $Comp
@@ -363,39 +306,6 @@ F 1 "Jumper_2_Bridged" H 5550 3454 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 3350 50  0001 C CNN
 F 3 "~" H 5550 3350 50  0001 C CNN
 	1    5550 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP?
-U 1 1 6235DA08
-P 5550 3750
-F 0 "JP?" H 5550 3945 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5550 3854 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 3750 50  0001 C CNN
-F 3 "~" H 5550 3750 50  0001 C CNN
-	1    5550 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP?
-U 1 1 6235DFD0
-P 5550 4150
-F 0 "JP?" H 5550 4345 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5550 4254 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 4150 50  0001 C CNN
-F 3 "~" H 5550 4150 50  0001 C CNN
-	1    5550 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Bridged JP?
-U 1 1 6235E630
-P 5550 4550
-F 0 "JP?" H 5550 4745 50  0000 C CNN
-F 1 "Jumper_2_Bridged" H 5550 4654 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 5550 4550 50  0001 C CNN
-F 3 "~" H 5550 4550 50  0001 C CNN
-	1    5550 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -467,12 +377,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 3350 5750 3350
 Wire Wire Line
-	5750 3750 5900 3750
-Wire Wire Line
-	5900 4150 5750 4150
-Wire Wire Line
-	5750 4550 5900 4550
-Wire Wire Line
 	4950 1400 4950 1500
 Wire Wire Line
 	4400 1950 4950 1950
@@ -487,8 +391,6 @@ Wire Wire Line
 	4950 2300 4950 1950
 Wire Wire Line
 	4950 2300 4950 2650
-Wire Wire Line
-	4950 4150 5350 4150
 Connection ~ 4950 2300
 Wire Wire Line
 	5350 2650 4950 2650
@@ -502,17 +404,7 @@ Wire Wire Line
 	4950 3000 4950 3350
 Wire Wire Line
 	5350 3350 4950 3350
-Connection ~ 4950 3350
 Wire Wire Line
-	4950 3350 4950 3750
-Wire Wire Line
-	5350 3750 4950 3750
-Connection ~ 4950 3750
-Wire Wire Line
-	4950 3750 4950 4150
-Wire Wire Line
-	5350 4550 4950 4550
-Wire Wire Line
-	4950 4550 4950 4150
-Connection ~ 4950 4150
+	6750 3650 6750 3350
+Connection ~ 6750 3350
 $EndSCHEMATC
