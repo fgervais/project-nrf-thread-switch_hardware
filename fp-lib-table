@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name 1571563-9)(type KiCad)(uri ${KIPRJMOD}/kicad-library/1571563-9)(options "")(descr ""))
   (lib (name BA2032SM)(type KiCad)(uri ${KIPRJMOD}/kicad-library/BA2032SM)(options "")(descr ""))
+  (lib (name project-nrf-thread-switch_hardware)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
 )
