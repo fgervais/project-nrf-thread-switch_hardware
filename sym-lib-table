@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name BA2032SM)(type Legacy)(uri ${KIPRJMOD}/kicad-library/BA2032SM/BA2032SM.lib)(options "")(descr ""))
   (lib (name 1571563-9)(type Legacy)(uri ${KIPRJMOD}/kicad-library/1571563-9/1571563-9.lib)(options "")(descr ""))
+  (lib (name B3FS-1010P)(type Legacy)(uri ${KIPRJMOD}/kicad-library/B3FS-1010/B3FS-1010P.lib)(options "")(descr ""))
 )
